@@ -8,21 +8,20 @@ public class Employe {
     public String getName() {
         return Name;
     }
-
-    public String getEmpId() {
-        return EmpId;
-    }
-
-    public String getContact() {
-        return Contact;
-    }
-
     public void setName(String name) {
         Name = name;
     }
 
+    public String getEmpId() {
+        return EmpId;
+    }
     public void setEmpId(String empId) {
         EmpId = empId;
+    }
+
+
+    public String getContact() {
+        return Contact;
     }
 
     public void setContact(String contact) {

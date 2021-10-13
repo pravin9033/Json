@@ -9,11 +9,11 @@ public class JsontoObject {
         System.out.println(emp);
     }
     private static Employe getjsonobject()  {
-        String a;
-        a = "[{\"Name\":\"Pravin\",\"Empid\":\"123\",\"Contact\":\"123\"},{\"Name\":\"Prem\",\"Empid\":\"124\",\"Contact\":\"124\"}]";
+
+
         // Creating a Gson Object
         Gson gson = new Gson();
-
+        String a = "{\"Name\":\"pravin\",\"Empid\":\"123\",\"Contact\":\"456\"},{\"Name\":\"Prem\",\"Empid\":\"567\",\"Contact\":\"789\"}";
         // Converting json to object
         // first parameter should be prpreocessed json
         // and second should be mapping class

@@ -46,12 +46,11 @@ public class MainClass {
         //Converting Into Json
         Gson gson = new Gson();
         String json = gson.toJson(emplist);
-        System.out.println("{Employees :"+json+"}");
+        System.out.println(json);
+        //System.out.println(json.getClass().getSimpleName());
 
 
-
-
-
+        emp1.getData();
     }
 
 

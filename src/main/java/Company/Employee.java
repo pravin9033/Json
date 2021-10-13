@@ -1,7 +1,5 @@
 package Company;
-import com.google.gson.Gson;
-import java.text.ParseException;
-import java.util.*;
+
 
 
 public class Employee {
@@ -29,8 +27,14 @@ public class Employee {
     public void setContact(String Contact){
         this.Contact = Contact;
     }
-    public String getContact(String i) {
+    public String getContact() {
         return Contact;
+    }
+
+    void getData(){
+        System.out.println(getName());
+        System.out.println(getId());
+        System.out.println(getContact());
     }
 }
 
